@@ -1,0 +1,10 @@
+{
+    admin off
+    log {
+        format console
+    }
+}
+
+alamos.feuerwehr-musterstadt.de {
+    reverse_proxy fe2_app:83
+}
